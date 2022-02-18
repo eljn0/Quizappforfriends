@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap');
+
 *, *::before, *::after {
     box-sizing: border-box;
     font-family: Gotham Rounded;
@@ -19,6 +21,7 @@
     justify-content: center;
     align-items: center;
     background-color: hsl(var(--hue), 100%, 20%);
+    font-family: 'Playfair Display', serif;
   }
   
   body.correct {

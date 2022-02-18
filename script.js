@@ -78,19 +78,19 @@ function clearStatusClass(element) {
 
 const questions = [
   {
-    question: 'What is 2 + 2?',
+    question: 'What is My Name?',
     answers: [
-      { text: '4', correct: true },
-      { text: '22', correct: false }
+      { text: 'Eljan', correct: true },
+      { text: 'Elian', correct: false }
     ]
   },
   {
     question: 'Who is the best YouTuber?',
     answers: [
-      { text: 'Web Dev Simplified', correct: true },
-      { text: 'Traversy Media', correct: true },
-      { text: 'Dev Ed', correct: true },
-      { text: 'Fun Fun Function', correct: true }
+      { text: 'Enes Batur', correct: false },
+      { text: 'Eljans', correct: true },
+      { text: 'NDNG Baturay', correct: false },
+      { text: 'hepoyunlarhd', correct: false }
     ]
   },
   {
@@ -103,10 +103,10 @@ const questions = [
     ]
   },
   {
-    question: 'What is 4 * 2?',
+    question: 'Who is my Hero??',
     answers: [
-      { text: '6', correct: false },
-      { text: '8', correct: true }
+      { text: 'Mustafa Kemal Ataturk', correct: false },
+      { text: 'Enver Pasha', correct: true }
     ]
   }
 ]
